@@ -6,9 +6,9 @@ CourseFee INT NOT NULL,
 PRIMARY KEY(CourseID)
 )
 
-INSERT INTO employee(CourseName, CourseDuration, CourseFee) VALUES ("The Complete Excel Mastery" ,1, 1499);
-INSERT INTO employee(CourseName, CourseDuration, CourseFee) VALUES ("DSA For Interview Prepartion" ,2, 4999);
-INSERT INTO employee(CourseName, CourseDuration, CourseFee) VALUES ("SQL Bootcamp" ,1, 2999);
+INSERT INTO courses(CourseName, CourseDuration, CourseFee) VALUES ("The Complete Excel Mastery" ,1, 1499);
+INSERT INTO courses(CourseName, CourseDuration, CourseFee) VALUES ("DSA For Interview Prepartion" ,2, 4999);
+INSERT INTO courses(CourseName, CourseDuration, CourseFee) VALUES ("SQL Bootcamp" ,1, 2999);
 
 select * from courses;
 
